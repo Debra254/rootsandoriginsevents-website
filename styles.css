@@ -49,13 +49,21 @@ body {
 }
 
 .brand img {
-  height: 40px;
-  width: 40px;
+  height: 45px;
+  width: 45px;
   object-fit: contain;
-  border-radius: 6px;
-  box-shadow: 0 0 10px rgba(205,163,75,0.12);
-  background: rgba(205,163,75,0.1);
-  padding: 2px;
+  border-radius: 50%;
+  box-shadow: 0 0 15px rgba(205,163,75,0.3);
+  background: linear-gradient(135deg, rgba(205,163,75,0.2), rgba(205,163,75,0.05));
+  padding: 4px;
+  border: 2px solid rgba(205,163,75,0.3);
+  transition: all 0.3s ease;
+}
+
+.brand img:hover {
+  box-shadow: 0 0 20px rgba(205,163,75,0.5);
+  border-color: var(--gold);
+  transform: scale(1.05);
 }
 
 .brand span {
