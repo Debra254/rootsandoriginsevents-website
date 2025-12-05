@@ -1,0 +1,17 @@
+{
+  "name": "rootsandorigins-events",
+  "version": "1.0.0",
+  "description": "Event ticket website with Paystack payment integration",
+  "main": "verify-payment.js",
+  "scripts": {
+    "start": "node verify-payment.js",
+    "dev": "node verify-payment.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.7"
+  },
+  "keywords": ["events", "tickets", "paystack", "payments"],
+  "author": "RootsandOrigins Events",
+  "license": "MIT"
+}
