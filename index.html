@@ -16,12 +16,12 @@
         <span>RootsandOrigins Events</span>
       </a>
       <nav id="navbar" class="nav-links">
+        <a href="#myevents">My Events</a>
         <a href="#upcoming">Upcoming Events</a>
         <a href="#packages">Packages</a>
         <a href="#gallery">Gallery</a>
-        <a href="#contact">Contact</a>
         <a href="#about">About Us</a>
-        <a href="#myevents">My Events</a>
+        <a href="#contact">Contact</a>
       </nav>
       <button id="hamburger" class="hamburger">☰</button>
     </div>
@@ -35,6 +35,41 @@
         <p>Exclusive shows, VIP vibes, unforgettable memories.</p>
         <a class="cta" href="#packages">Get Tickets</a>
       </div>
+    </div>
+  </section>
+
+  <!-- My Events Carousel -->
+  <section id="myevents" class="section container">
+    <h2>My Events</h2>
+    <div class="carousel" id="flyerCarousel">
+      <button class="carousel-arrow left" data-dir="prev">‹</button>
+      <div class="carousel-track">
+        <div class="slide">
+          <img src="assets/flyer1.jpg" alt="Electric Nights Flyer">
+          <div class="slide-caption">
+            <h3>Electric Nights</h3>
+            <p>Dec 20, 2025</p>
+            <button class="pay-btn" data-amount="2000" data-plan="Electric Nights - Single Ticket">Buy Ticket</button>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="assets/flyer2.jpg" alt="Golden Grooves Flyer">
+          <div class="slide-caption">
+            <h3>Golden Grooves</h3>
+            <p>Jan 15, 2026</p>
+            <button class="pay-btn" data-amount="3500" data-plan="Golden Grooves - Couple Ticket">Buy Ticket</button>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="assets/flyer1.jpg" alt="VIP Night Flyer">
+          <div class="slide-caption">
+            <h3>VIP Night</h3>
+            <p>Feb 10, 2026</p>
+            <button class="pay-btn" data-amount="5000" data-plan="VIP Night - Premium Ticket">Buy Ticket</button>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-arrow right" data-dir="next">›</button>
     </div>
   </section>
 
@@ -117,19 +152,6 @@
     </div>
   </section>
 
-  <!-- Contact -->
-  <section id="contact" class="section container">
-    <h2>Contact</h2>
-    <form id="contactForm" class="contact-form">
-      <div class="form-row">
-        <input type="text" id="name" placeholder="Your name" required>
-        <input type="email" id="email" placeholder="Your email" required>
-      </div>
-      <textarea id="message" placeholder="Message" required></textarea>
-      <button type="submit" class="btn">Send Message</button>
-    </form>
-  </section>
-
   <!-- About Us -->
   <section id="about" class="section container">
     <h2>About Us</h2>
@@ -146,39 +168,17 @@
     </div>
   </section>
 
-  <!-- My Events Carousel -->
-  <section id="myevents" class="section container">
-    <h2>My Events</h2>
-    <div class="carousel" id="flyerCarousel">
-      <button class="carousel-arrow left" data-dir="prev">‹</button>
-      <div class="carousel-track">
-        <div class="slide">
-          <img src="assets/flyer1.jpg" alt="Electric Nights Flyer">
-          <div class="slide-caption">
-            <h3>Electric Nights</h3>
-            <p>Dec 20, 2025</p>
-            <button class="pay-btn" data-amount="2000" data-plan="Electric Nights - Single Ticket">Buy Ticket</button>
-          </div>
-        </div>
-        <div class="slide">
-          <img src="assets/flyer2.jpg" alt="Golden Grooves Flyer">
-          <div class="slide-caption">
-            <h3>Golden Grooves</h3>
-            <p>Jan 15, 2026</p>
-            <button class="pay-btn" data-amount="3500" data-plan="Golden Grooves - Couple Ticket">Buy Ticket</button>
-          </div>
-        </div>
-        <div class="slide">
-          <img src="assets/flyer1.jpg" alt="VIP Night Flyer">
-          <div class="slide-caption">
-            <h3>VIP Night</h3>
-            <p>Feb 10, 2026</p>
-            <button class="pay-btn" data-amount="5000" data-plan="VIP Night - Premium Ticket">Buy Ticket</button>
-          </div>
-        </div>
+  <!-- Contact -->
+  <section id="contact" class="section container">
+    <h2>Contact</h2>
+    <form id="contactForm" class="contact-form">
+      <div class="form-row">
+        <input type="text" id="name" placeholder="Your name" required>
+        <input type="email" id="email" placeholder="Your email" required>
       </div>
-      <button class="carousel-arrow right" data-dir="next">›</button>
-    </div>
+      <textarea id="message" placeholder="Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
   </section>
 
   <!-- Footer -->
